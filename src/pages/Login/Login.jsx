@@ -8,7 +8,7 @@ import { verifyToken } from "../../utils/verifyToken";
 import { useLoginMutation } from "../../redux/features/auth/authApi";
 import NavBar from "../Shared/NavBar/NavBar";
 import Cookies from "js-cookie";
-import Circle from "../../components/Circle/Circle";
+// import Circle from "../../components/Circle/Circle";
 
 
 const Login = () => {
@@ -89,7 +89,7 @@ const Login = () => {
 
         
         </form>
-        <Circle/>
+       
       </div>
     </div>
   );

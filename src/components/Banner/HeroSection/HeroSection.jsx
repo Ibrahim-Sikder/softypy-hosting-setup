@@ -4,10 +4,10 @@ import NavBar from "../../../pages/Shared/NavBar/NavBar";
 import Container from "../../../ui/Container";
 import ContactModal from "./ContactModal";
 import "./HeroSection.css";
-import react from '../../../../public/assets/react.png'
-import node from '../../../../public/assets/node.png'
-import js from '../../../../public/assets/javaScript.png'
-import flutter from '../../../../public/assets/next.png'
+// import react from '../../../../public/assets/react.png'
+// import node from '../../../../public/assets/node.png'
+// import js from '../../../../public/assets/javaScript.png'
+// import flutter from '../../../../public/assets/next.png'
 const HeroSection = () => {
   const [showText, setShowText] = useState(1);
 
@@ -82,6 +82,8 @@ const HeroSection = () => {
                     {" "}
                     Let's Talk{" "}
                   </button>
+                  
+                  {/***
                   <div className="animationIcon ">
                   <img src={react} alt="" />
                   </div>
@@ -94,6 +96,8 @@ const HeroSection = () => {
                   <div className="flutter">
                   <img src={flutter} alt="flutter" />
                   </div>
+                   */}
+                  
                 </div>
               </div>
             </div>
